@@ -9,23 +9,29 @@ import Logout from './Logout';
 import AddProduct from './AddProduct';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 import TransactionHistory from './TransactionHistory';
+import Header from './Header';
 
 function App() {
+  
   return (
+
     <Router>
       <div>
-<nav>
-<ul>
-<li><Link to="/">Login</Link></li>
-<li><Link to="/home">Home</Link></li>
-<li><Link to="/browserProduct">Browse Products</Link></li>
-<li><Link to="/cart">Cart</Link></li>
-<li><Link to="/checkout">Checkout</Link></li>
-<li><Link to="/logout">Logout</Link></li>
-<li><Link to="/add-product">Add Product</Link></li>
-<li><Link to="/transactions">MyTransaction</Link></li>
-</ul>
+      <center><Header/></center>
+      <nav>
+  <ul id="nav-menu">
+    <li><Link to="/">Login</Link></li>
+    <li><Link to="/home">Home</Link></li>
+    <li><Link to="/browserProduct">Browse Products</Link></li>
+    <li><Link to="/cart">Cart</Link></li>
+    <li><Link to="/checkout">Checkout</Link></li>
+    <li><Link to="/logout">Logout</Link></li>
+    <li><Link to="/add-product">Add Product</Link></li>
+    <li><Link to="/transactions">My Transactions</Link></li>
+  </ul>
+  
 </nav>
+
 </div>
       <Switch>
         <Route path="/" exact component={Login} />
