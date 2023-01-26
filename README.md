@@ -11,16 +11,14 @@ Server-side Scripts
     Run npm install to install the necessary packages for the server-side.
     To start the server-side script, run node ./server.js.
     To modify the database connection or change login credentials, open the server.js file.
-    U
+    Update the following lines with your connection details:
 
-    pdate the following lines with your connection details:
-
-const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'ecommercedb'
-});
+    const db = mysql.createConnection({
+        host: 'localhost',
+        user: 'root',
+        password: '',
+        database: 'ecommercedb'
+    });
 Functionalities and Components
 
     1.Login

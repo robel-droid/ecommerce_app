@@ -4,6 +4,7 @@ import Login from './Login';
 import Home from './Home';
 import BrowserProduct from './BrowseProducts';
 import Cart from './Cart';
+import Signup from './Signup';
 import Checkout from './Checkout';
 import Logout from './Logout';
 import AddProduct from './AddProduct';
@@ -22,6 +23,7 @@ function App() {
   <ul id="nav-menu">
     <li><Link to="/">Login</Link></li>
     <li><Link to="/home">Home</Link></li>
+    <li><Link to="Signup">Signup</Link></li>
     <li><Link to="/browserProduct">Browse Products</Link></li>
     <li><Link to="/cart">Cart</Link></li>
     <li><Link to="/checkout">Checkout</Link></li>
@@ -40,6 +42,7 @@ function App() {
         <Route path="/cart" component={Cart} />
         <Route path="/checkout" component={Checkout} />
         <Route path="/logout" component={Logout}/>
+        <Route path="/Signup" component={Signup}/>
         <Route path="/add-product" component={AddProduct}/>
         <Route path="/transactions" component={TransactionHistory}/>
 
