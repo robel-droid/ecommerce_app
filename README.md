@@ -1,40 +1,46 @@
-#ecommerce_app project with react
-#First commit with project
-Before starting the project open the SQL folder and import the eccomerce.sql File in your mysql database
-once the database has been created successfully 
-...
+Ecommerce App
+Project Setup
 
-To install packages for client-side
- `npm install` 
-To start `npm start`
+    Before starting the project, open the SQL folder and import the eccomerce.sql file into your MySQL database.
+    Once the database has been created successfully, navigate to the root directory of the project and run npm install to install the necessary packages for the client-side.
+    To start the client-side app, run npm start.
 
-For Server side script
-on .\server\ direcorty 
-`npm install`
-to start server side script
-node ./server.js
+Server-side Scripts
 
-to modify the database connection or to change login credentials
-open server.js file 
-change this lines :
-...
+    Navigate to the ./server directory.
+    Run npm install to install the necessary packages for the server-side.
+    To start the server-side script, run node ./server.js.
+    To modify the database connection or change login credentials, open the server.js file.
+    U
+
+    pdate the following lines with your connection details:
+
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: '',
     database: 'ecommercedb'
 });
-...
-If the server has started successfuly it will show this message in the terminal 
+Functionalities and Components
 
-> y@1.0.0 start
-> node ./server.js
+    1.Login
+    2.Signup
+    3.Logout
+    4.AddProduct
+    5.BrowseProduct
+    6.SearchProduct
+    7.AddToCart
+    8.Cart (viewCart)
+    9.Checkout
+    10.TransactionHistory	
 
-Server started on port 3001
-MySQL connected
-
-
-next step start client side app
-`npm start` 
-
-
+=========================
+Section: N3
+Project group memmbers:
+   1.ROBEL MAMO(UU78895R)
+   2.TSION TEFERI(UU78754R)
+   3.HILAWI MEAZA(UU78760R)
+   4.NATNAEL MESFIN(UU79037R)
+   5.HEAVEN TEAME(UU80270R)
+   6.YARED SHIFERAW(UU78815R)
+   7.MICHAEL MARYE(UU79068)
