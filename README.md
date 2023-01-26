@@ -22,6 +22,9 @@ Server-side Scripts
         password: '',
         database: 'ecommercedb'
     });
+
+OR open screenshots folder and see the screen shots in there starting from Screenshot (34).png    
+
 Functionalities and Components
 
     1.Login
