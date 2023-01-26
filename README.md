@@ -1,4 +1,7 @@
 Ecommerce App
+#Introduction
+This project is an e-commerce platform that allows users to browse, purchase, and manage products. It is built using React, a JavaScript library for building user interfaces, and the React Router library for client-side routing. The architecture is based on components, where each component represents a specific feature or functionality of the application. We also used HTML, CSS, and JavaScript for styling and interactivity. Additionally, we used the Redux library for state management, and MySql database for data storage. Overall, this project demonstrates a solid understanding of modern web development technologies and best practices.
+
 Project Setup
 
     Before starting the project, open the SQL folder and import the eccomerce.sql file into your MySQL database.
