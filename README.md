@@ -38,14 +38,3 @@ Functionalities and Components
     9.Checkout
     10.TransactionHistory	
 
-
-Section: N3
-Project group memmbers:
-
-    1.ROBEL MAMO(UU78895R)
-    2.TSION TEFERI(UU78754R)
-    3.HILAWI MEAZA(UU78760R)
-    4.NATNAEL MESFIN(UU79037R)
-    5.HEAVEN TEAME(UU80270R)
-    6.YARED SHIFERAW(UU78815R)
-    7.MICHAEL MARYE(UU79068)
